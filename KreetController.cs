@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 
-#pragma warning disable
 
 public class KreetController : MonoBehaviour
 {
@@ -58,6 +55,7 @@ public class KreetController : MonoBehaviour
 
     }
 
+    //  A simple atack system example
     void Atack(float distance)
     {
         
